@@ -1,0 +1,39 @@
+.expense-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 10px auto;
+    width: 400px; */
+    border: transparent;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgb(108, 213, 255);
+    padding: 10px;
+    flex-grow: 1;
+}
+
+.expense-item.positive{
+    border-left: 5px solid green;
+}
+.expense-item.negative{
+    border-left: 5px solid red;
+}
+
+.expense-container{
+    display: flex;
+    align-items: center;
+    margin: 10px auto;
+    max-width: 415px;
+    gap: 20px;
+}
+
+.delete-btn{
+    width: 60px;
+    border: transparent;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgb(220, 235, 241);
+    padding: 10px;
+}
+
+.delete-btn:hover{
+    color: red;
+}
